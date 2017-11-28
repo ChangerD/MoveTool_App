@@ -13,7 +13,7 @@
         android:gravity="center"
         android:text="@string/uploading_flight_point"
         android:textColor="@color/white"/>
-    <com.topxgun.appbase.component.dialog.BaseProgressBarWithNum
+    <com.jwding.appbase.component.dialog.BaseProgressBarWithNum
         android:id="@+id/weight_pb_agric"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
