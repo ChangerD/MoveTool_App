@@ -1,0 +1,9 @@
+<resources>
+    <string name="cancel">取消</string>
+    <string name="comfirm">确定</string>
+    <string name="retry">重试</string>
+
+    <string name="loading">加载中</string>
+    <string name="error_view_loading">视图加载失败</string>
+    <string name="uploading_flight_point">上传航点</string>
+</resources>

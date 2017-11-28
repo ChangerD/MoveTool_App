@@ -1,0 +1,80 @@
+<resources>
+    <!--basedialog的样式-->
+    <style name="BaseDialog_" parent="@android:style/Theme.Dialog">
+        <!-- 取消标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 设置Dialog背景框为null -->
+        <item name="android:windowFrame">@null</item>
+        <!-- 覆盖物为null -->
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustPan|stateUnspecified</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <!-- Dialog使用中 -->
+    <style name="MyDialog_" parent="@style/BaseDialog_">
+        <item name="android:windowAnimationStyle">@style/ScaledAnimation_</item>
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+        <item name="android:background">#00000000</item> <!-- 设置自定义布局的背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>  <!-- 设置window背景透明，也就是去边框 -->
+    </style>
+
+    <!-- Dialog 上下动画 -->
+    <style name="BottomDialog_" parent="@style/BaseDialog_">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowAnimationStyle">@style/MoveAnimation_</item>
+    </style>
+
+    <!-- Dialog from right 动画 -->
+    <style name="SideDialog_" parent="@style/BaseDialog_">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowAnimationStyle">@style/MoveAnimation_</item>
+    </style>
+
+    <!-- PupopWindow动画效果 -->
+    <style name="PopupBottom_" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_down_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_down_out</item>
+    </style>
+
+    <!-- PupopWindow动画效果 -->
+    <style name="PopupAlpha_" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_out</item>
+    </style>
+
+    <!-- =============================动画================================ -->
+    <!-- 动画 缩放 -->
+    <style name="ScaledAnimation_">
+        <item name="android:windowEnterAnimation">@anim/scaled_in</item>
+        <item name="android:windowExitAnimation">@anim/scaled_out</item>
+    </style>
+
+    <!-- 动画 透明 -->
+    <style name="AlphaAnimation_">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_out</item>
+    </style>
+
+    <!-- 动画 移动  from bottom-->
+    <style name="MoveAnimation_">
+        <item name="android:windowEnterAnimation">@anim/anim_down_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_down_out</item>
+    </style>
+
+    <!-- 动画 移动 from right-->
+    <style name="MoveAnimationFromRight_">
+        <item name="android:windowEnterAnimation">@anim/anim_right_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_right_out</item>
+    </style>
+
+</resources>

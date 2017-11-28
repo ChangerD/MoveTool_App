@@ -1,0 +1,38 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <RelativeLayout
+       android:id="@+id/rl_root"
+       android:background="@mipmap/v__lockview_slide_bg"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <TextView
+           android:id="@+id/tv_hint"
+           android:layout_centerInParent="true"
+           android:textColor="@android:color/white"
+           android:layout_centerVertical="true"
+           android:textSize="20sp"
+           android:text="滑动解锁"
+           android:gravity="center"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:visibility="gone"/>
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_slide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/iv_slide"
+            android:scaleType="fitCenter"
+            android:src="@mipmap/icon_slide"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+    </RelativeLayout>
+
+</RelativeLayout>

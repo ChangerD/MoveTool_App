@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\assets"/><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\build\generated\assets\shaders\debug"/></dataSet><dataSet config="debug"><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\debug\assets"/></dataSet></merger>

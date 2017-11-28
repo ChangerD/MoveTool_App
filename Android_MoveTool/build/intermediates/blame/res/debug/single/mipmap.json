@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\mipmap\\icon_slide.png",
+        "source": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\src\\main\\res\\mipmap\\icon_slide.png"
+    },
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\mipmap\\v__lockview_slide_bg.png",
+        "source": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\src\\main\\res\\mipmap\\v__lockview_slide_bg.png"
+    },
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\mipmap\\ic_launcher.png",
+        "source": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\src\\main\\res\\mipmap\\ic_launcher.png"
+    }
+]

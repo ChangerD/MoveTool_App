@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\25340\\.android\\build-cache\\427a54d41a207b560e46264cafa7d3e3aee68cf1\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\25340\\.android\\build-cache\\427a54d41a207b560e46264cafa7d3e3aee68cf1\\output\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\25340\\.android\\build-cache\\629633f87f8bb37934bbbdd6a870ef1cc3021ff9\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\25340\\.android\\build-cache\\427a54d41a207b560e46264cafa7d3e3aee68cf1\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\25340\\.android\\build-cache\\629633f87f8bb37934bbbdd6a870ef1cc3021ff9\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\25340\\.android\\build-cache\\629633f87f8bb37934bbbdd6a870ef1cc3021ff9\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\25340\\.android\\build-cache\\427a54d41a207b560e46264cafa7d3e3aee68cf1\\output\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "H:\\MyGitHub\\MoveTool_App\\Android_MoveTool\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\25340\\.android\\build-cache\\b4a5f5dc08989ae88fc7a8cc11608161eef35ee3\\output\\res\\drawable-v21\\notification_action_background.xml"
+    }
+]

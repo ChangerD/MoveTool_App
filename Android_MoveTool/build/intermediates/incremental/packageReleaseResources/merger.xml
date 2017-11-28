@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main$Generated" generated="true"><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res"/><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\build\generated\res\rs\release"/><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\build\generated\res\resValues\release"/></dataSet><dataSet config="release$Generated" generated="true"><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\release\res"/></dataSet><dataSet config="main" generated-set="main$Generated"><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res"><file name="alpha_in" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\alpha_in.xml" qualifiers="" type="anim"/><file name="alpha_out" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\alpha_out.xml" qualifiers="" type="anim"/><file name="anim_down_in" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\anim_down_in.xml" qualifiers="" type="anim"/><file name="anim_down_out" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\anim_down_out.xml" qualifiers="" type="anim"/><file name="anim_right_in" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\anim_right_in.xml" qualifiers="" type="anim"/><file name="anim_right_out" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\anim_right_out.xml" qualifiers="" type="anim"/><file name="anim_top_in" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\anim_top_in.xml" qualifiers="" type="anim"/><file name="close_enter_fade_forward" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\close_enter_fade_forward.xml" qualifiers="" type="anim"/><file name="close_exit_slide_out_right" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\close_exit_slide_out_right.xml" qualifiers="" type="anim"/><file name="i_slide_in_left" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\i_slide_in_left.xml" qualifiers="" type="anim"/><file name="i_slide_in_right" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\i_slide_in_right.xml" qualifiers="" type="anim"/><file name="i_slide_out_left" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\i_slide_out_left.xml" qualifiers="" type="anim"/><file name="i_slide_out_right" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\i_slide_out_right.xml" qualifiers="" type="anim"/><file name="open_enter_slide_in_left" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\open_enter_slide_in_left.xml" qualifiers="" type="anim"/><file name="open_exit_fade_back" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\open_exit_fade_back.xml" qualifiers="" type="anim"/><file name="scaled_in" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\scaled_in.xml" qualifiers="" type="anim"/><file name="scaled_out" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\anim\scaled_out.xml" qualifiers="" type="anim"/><file name="primarybar_txt" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\color\primarybar_txt.xml" qualifiers="" type="color"/><file name="tab_sliding" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\color\tab_sliding.xml" qualifiers="" type="color"/><file name="bg_dialog" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable\bg_dialog.9.png" qualifiers="" type="drawable"/><file name="bg_toast" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable\bg_toast.9.png" qualifiers="" type="drawable"/><file name="list_item_background" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable\list_item_background.xml" qualifiers="" type="drawable"/><file name="load_spinner" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable\load_spinner.xml" qualifiers="" type="drawable"/><file name="progressloading" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable\progressloading.xml" qualifiers="" type="drawable"/><file name="progress_custom_bg" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable\progress_custom_bg.xml" qualifiers="" type="drawable"/><file name="tab_notification_bg" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable\tab_notification_bg.9.png" qualifiers="" type="drawable"/><file name="touch_clear_bg" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable\touch_clear_bg.xml" qualifiers="" type="drawable"/><file name="ic_empty" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\ic_empty.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_loading" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\ic_loading.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_loading_error" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\ic_loading_error.png" qualifiers="hdpi-v4" type="drawable"/><file name="ic_network_error" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\ic_network_error.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner0" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner0.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner1" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner1.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner10" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner10.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner11" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner11.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner2" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner2.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner3" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner3.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner4" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner4.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner5" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner5.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner6" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner6.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner7" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner7.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner8" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner8.png" qualifiers="hdpi-v4" type="drawable"/><file name="spinner9" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-hdpi\spinner9.png" qualifiers="hdpi-v4" type="drawable"/><file name="actionbar_back_icon_normal" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-xhdpi\actionbar_back_icon_normal.png" qualifiers="xhdpi-v4" type="drawable"/><file name="shape_round_normal_green" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\drawable-xhdpi\shape_round_normal_green.xml" qualifiers="xhdpi-v4" type="drawable"/><file name="actionbar_main" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\actionbar_main.xml" qualifiers="" type="layout"/><file name="item_footer" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\item_footer.xml" qualifiers="" type="layout"/><file name="layout_view_slide_to_unlock" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\layout_view_slide_to_unlock.xml" qualifiers="" type="layout"/><file name="pager_navigator_layout" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\pager_navigator_layout.xml" qualifiers="" type="layout"/><file name="pager_navigator_layout_no_scroll" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\pager_navigator_layout_no_scroll.xml" qualifiers="" type="layout"/><file name="view_actionbar_default" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\view_actionbar_default.xml" qualifiers="" type="layout"/><file name="view_base_toast" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\view_base_toast.xml" qualifiers="" type="layout"/><file name="view_error_layout" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\view_error_layout.xml" qualifiers="" type="layout"/><file name="view_progress" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\view_progress.xml" qualifiers="" type="layout"/><file name="view_progressbar" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\view_progressbar.xml" qualifiers="" type="layout"/><file name="view_toast" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\layout\view_toast.xml" qualifiers="" type="layout"/><file name="icon_slide" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\mipmap\icon_slide.png" qualifiers="" type="mipmap"/><file name="ic_launcher" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\mipmap\ic_launcher.png" qualifiers="" type="mipmap"/><file name="v__lockview_slide_bg" path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\mipmap\v__lockview_slide_bg.png" qualifiers="" type="mipmap"/><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\attrs.xml" qualifiers=""><attr format="dimension" name="gCornerRadiusBR"/><attr format="float" name="gTouchDurationRate"/><attr format="dimension" name="gTouchCornerRadius"/><attr format="color|reference" name="gBackgroundColor"/><attr format="dimension" name="gTouchCornerRadiusTL"/><attr format="integer" name="gTouchEffect">
+        <enum name="none" value="0"/>
+        <enum name="auto" value="1"/>
+        <enum name="ease" value="2"/>
+        <enum name="press" value="3"/>
+        <enum name="ripple" value="4"/>
+    </attr><attr format="dimension" name="gTouchCornerRadiusTR"/><attr format="string" name="gFont"/><attr format="dimension" name="gCornerRadius"/><attr format="dimension" name="gTouchCornerRadiusBL"/><attr format="dimension" name="gCornerRadiusTR"/><attr format="reference" name="gImageViewStyle"/><attr format="dimension" name="gCornerRadiusTL"/><attr format="dimension" name="gTouchCornerRadiusBR"/><attr format="color" name="gTouchColor"/><attr format="dimension" name="gBorderSize"/><attr format="reference" name="gLoadingStyle"/><declare-styleable name="ImageView">
+        <attr name="gTouchColor"/>
+        <attr name="gTouchEffect"/>
+        <attr name="gTouchCornerRadius"/>
+        <attr name="gTouchCornerRadiusTL"/>
+        <attr name="gTouchCornerRadiusTR"/>
+        <attr name="gTouchCornerRadiusBL"/>
+        <attr name="gTouchCornerRadiusBR"/>
+        <attr name="gTouchDurationRate"/>
+    </declare-styleable><declare-styleable name="Loading">
+        <attr format="dimension" name="gBackgroundLineSize"/>
+        <attr format="dimension" name="gForegroundLineSize"/>
+        <attr name="gBackgroundColor"/>
+        <attr format="reference|color" name="gForegroundColor"/>
+        <attr name="gLineStyle">
+            <enum name="circle" value="1"/>
+            <enum name="line" value="2"/>
+        </attr>
+        <attr format="boolean" name="gAutoRun"/>
+        <attr format="float" name="gProgressFloat"/>
+    </declare-styleable><attr format="dimension" name="gCornerRadiusBL"/></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\autolayout-attrs.xml" qualifiers=""><declare-styleable name="MetroLayout">
+        <attr format="dimension" name="metro_divider"/>
+    </declare-styleable><declare-styleable name="AutoLayout_Layout">
+
+        <attr name="layout_auto_basewidth">
+            <flag name="width" value="1"/>
+            <flag name="height" value="2"/>
+            <flag name="textSize" value="4"/>
+            <flag name="padding" value="8"/>
+            <flag name="margin" value="16"/>
+            <flag name="marginLeft" value="32"/>
+            <flag name="marginTop" value="64"/>
+            <flag name="marginRight" value="128"/>
+            <flag name="marginBottom" value="256"/>
+            <flag name="paddingLeft" value="512"/>
+            <flag name="paddingTop" value="1024"/>
+            <flag name="paddingRight" value="2048"/>
+            <flag name="paddingBottom" value="4096"/>
+        </attr>
+
+        <attr name="layout_auto_baseheight">
+            <flag name="width" value="1"/>
+            <flag name="height" value="2"/>
+            <flag name="textSize" value="4"/>
+            <flag name="padding" value="8"/>
+            <flag name="margin" value="16"/>
+            <flag name="marginLeft" value="32"/>
+            <flag name="marginTop" value="64"/>
+            <flag name="marginRight" value="128"/>
+            <flag name="marginBottom" value="256"/>
+            <flag name="paddingLeft" value="512"/>
+            <flag name="paddingTop" value="1024"/>
+            <flag name="paddingRight" value="2048"/>
+            <flag name="paddingBottom" value="4096"/>
+            <flag name="minWidth" value="8192"/>
+            <flag name="maxWidth" value="16384"/>
+            <flag name="minHeight" value="32768"/>
+            <flag name="maxHeight" value="65536"/>
+        </attr>
+
+    </declare-styleable></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\autolayout-ids.xml" qualifiers=""><item name="id_tag_autolayout_padding" type="id"/><item name="id_tag_autolayout_margin" type="id"/><item name="id_tag_autolayout_size" type="id"/></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\baseStyles.xml" qualifiers=""><declare-styleable name="MWheelView">　
+        <attr format="color" name="textSelectedColor"/>
+        <attr format="color" name="textNotSelectedColor"/>
+        <attr format="integer" name="offset"/>
+        <attr format="color" name="separatorColor"/>
+        <attr format="dimension" name="separatorWidth"/>
+    </declare-styleable></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\colors.xml" qualifiers=""><color name="face_bg">#eef1f4</color><color name="dim_foreground_light">#808080</color><color name="result_minor_text">#939393</color><color name="frame_button_text_nor">#033a5c</color><color name="dim_foreground_light_inverse">#ff006eaa</color><color name="main_black">#353535</color><color name="actionbar_item_background_normal">@color/transparent</color><color name="graywhite">#F5F5F5</color><color name="list_divider_color">#DADADA</color><color name="green_20">#54D314</color><color name="blue_500">#5677fc</color><color name="head_text">#0e5986</color><color name="transparent">#00000000</color><color name="possible_result_points">#c0ffbd21</color><color name="ff40ab54">#ff40ab54</color><color name="window_background">#EBEBEB</color><color name="gray_80">#E7E7E7</color><color name="app_colorPrimary">#0078DB</color><color name="status_text">#ffffffff</color><color name="green">#008000</color><color name="weight_bar_buttondown">#63A3D7</color><color name="listitem_white">#ffffffff</color><color name="purple">#800080</color><color name="white">#FFFFFF</color><color name="gray_10">#6D6B6C</color><color name="result_view">#b0000000</color><color name="tab_text_gray">#B0B0B0</color><color name="fff1f2f3">#fff1f2f3</color><color name="listitem_black">#ff000000</color><color name="main_red">#f94848</color><color name="lightblue">#0083FF</color><color name="black">#000000</color><color name="bg_capture">#5E84E2</color><color name="full_transparent">#00000000</color><color name="split_line_grey_color_d9d9d9">#ffd9d9d9</color><color name="text_dark">#af000000</color><color name="theme_accent_2">#e91e63</color><color name="viewfinder_mask">#60000000</color><color name="g_default_loading_bg">@color/grey_300</color><color name="main_red_80">#aef94848</color><color name="ornage_40">#FFA51B</color><color name="gray_20">#C0BFC5</color><color name="result_points">#c099cc00</color><color name="white80">#cfffffff</color><color name="app_colorAccent">#0078DB</color><color name="purple_500">#9c27b0</color><color name="timeline_clickable_text_highlighted_background">#ffbedfff</color><color name="list_item_background_normal">#ffffff</color><color name="listitem_yellow">#fffaffbf</color><color name="bright_foreground_light_disabled">#80000000</color><color name="pink_500">#e91e63</color><color name="listitem_greenyellow">#ff87b869</color><color name="tab_strip_text_selected">@color/main_red</color><color name="listitem_gray">#ff9da19e</color><color name="tab_strip_background">#66fafafa</color><color name="frame_button_text_select">#FFFFFF</color><color name="lemonyellow">#FFFACD</color><color name="grey_300">#e0e0e0</color><color name="dim_foreground_light_inverse_disabled">#80bebebe</color><color name="listitem_green">#ffe3ffc6</color><color name="theme_primary_dark">#ffcc0000</color><color name="bright_foreground_light">#ff000000</color><color name="orange_500">#ff9800</color><color name="listitem_blue">#0e5986</color><color name="app_colorPrimaryDark">#0078DB</color><color name="light_gray">#1a000000</color><color name="dim_foreground_light_disabled">#80323232</color><color name="main_purple">#576B95</color><color name="bg_touch">@color/lightest_gray</color><color name="text_main_dark">#6D6B6C</color><color name="author_text">#0e5986</color><color name="pink">#FFC0CB</color><color name="weight_bar_buttonup">#A4A9AE</color><color name="cyan_500">#00bcd4</color><array name="g_default_loading_fg">
+        <item>@color/app_colorPrimary</item>
+        <item>@color/app_colorPrimary</item>
+        <item>@color/app_colorPrimary</item>
+        <item>@color/app_colorPrimary</item>
+        <item>@color/app_colorPrimary</item>
+    </array><color name="gray_40">#D0D0D2</color><color name="theme_primary_light">#7986cb</color><color name="bright_foreground_light_inverse">#ffffffff</color><color name="white60">#95ffffff</color><color name="viewfinder_laser">#ffcc0000</color><color name="theme_primary">#3f51b5</color><color name="text_main_green">@color/green</color><color name="blue">#0000FF</color><color name="orange">#FFA500</color><color name="gold">#FFD700</color><color name="gray">#808080</color><color name="encode_view">#ffffffff</color><color name="list_item_background_pressed">#F1F1F1</color><color name="tab_strip_text_unselected">@color/main_black</color><color name="tab_selected_strip">@color/main_red</color><color name="actionbar_item_background_pressed">#30ffffff</color><color name="main_link_text_color">#ff507daf</color><color name="ui_dialog_divider">@color/list_divider_color</color><color name="ornage_80">#F9B854</color><color name="main_gray">#9A9A9A</color><color name="actionbar_background">@color/app_colorPrimary</color><color name="primarybar_background">#FDFDFE</color><color name="text_light">#3f000000</color><color name="grayslate">#708090</color><color name="red">#FF0000</color><color name="ui_dialog_list_text">#5E5E5E</color><color name="white40">#40FFFFFF</color><color name="yellow">#FFFF00</color><color name="primarybar_split_color">#D6D6D6</color><color name="listitem_transparent">#00000000</color><color name="half_transparent">#aa000000</color><color name="main_red_50">#77f94848</color><color name="lightest_gray">#0a000000</color><color name="contents_text">#ff000000</color><color name="result_text">#ffffffff</color></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\dimens.xml" qualifiers=""><dimen name="text_size_31">31.0dip</dimen><dimen name="text_size_32">32.0dip</dimen><dimen name="text_large_primary_size">16.0dip</dimen><dimen name="text_size_8">8.0dip</dimen><dimen name="text_size_9">9.0dip</dimen><dimen name="text_size_7">7.0dip</dimen><dimen name="text_large_secondary_size">12.0dip</dimen><dimen name="text_regular_primary_size">14.0dip</dimen><dimen name="list_item_avatar_size">40dp</dimen><dimen name="text_size_30">30.0dip</dimen><dimen name="dialog_margin">7.0dip</dimen><dimen name="actionbar_size_with_tab_size">86dp</dimen><dimen name="global_dialog_padding">16.0dip</dimen><dimen name="text_size_20">20.0dip</dimen><dimen name="text_size_21">21.0dip</dimen><dimen name="activity_vertical_margin">16dp</dimen><dimen name="text_size_22">22.0dip</dimen><dimen name="text_size_23">23.0dip</dimen><dimen name="text_size_24">24.0dip</dimen><dimen name="text_size_25">25.0dip</dimen><dimen name="text_size_26">26.0dip</dimen><dimen name="timeline_small_card_min_width">66.0dip</dimen><dimen name="text_size_27">27.0dip</dimen><dimen name="space_30">30.0dip</dimen><dimen name="g_loading_lineSize">2dp</dimen><dimen name="text_size_28">28.0dip</dimen><dimen name="text_size_29">29.0dip</dimen><dimen name="text_size_10">10.0dip</dimen><dimen name="text_size_11">11.0dip</dimen><dimen name="text_size_12">12.0dip</dimen><dimen name="timeline_small_card_triangle_margin_left">5.0dip</dimen><dimen name="text_size_13">13.0dip</dimen><dimen name="text_size_14">14.0dip</dimen><dimen name="text_size_15">15.0dip</dimen><dimen name="text_size_16">16.0dip</dimen><dimen name="timeline_small_card_triangle_margin_right">4.0dip</dimen><dimen name="avatar_size_big">60dp</dimen><dimen name="timeline_small_card_height">20.0dip</dimen><dimen name="space_21">21.0dip</dimen><dimen name="space_22">22.0dip</dimen><dimen name="space_20">20.0dip</dimen><dimen name="tab_height">38dp</dimen><dimen name="space_7">7.0dip</dimen><dimen name="space_8">8.0dip</dimen><dimen name="timeline_small_card_title_margin_left">5.0dip</dimen><dimen name="space_9">9.0dip</dimen><dimen name="text_size_17">17.0dip</dimen><dimen name="space_29">29.0dip</dimen><dimen name="timeline_small_card_padding_right">5.0dip</dimen><dimen name="text_size_18">18.0dip</dimen><dimen name="error_icon_size">59dp</dimen><dimen name="text_size_19">19.0dip</dimen><dimen name="space_27">27.0dip</dimen><dimen name="actionbar_size">48dp</dimen><dimen name="space_28">28.0dip</dimen><dimen name="space_25">25.0dip</dimen><dimen name="popo_menu_dialog_width">180dp</dimen><dimen name="space_26">26.0dip</dimen><dimen name="timeline_small_card_icon_margin_left">5.0dip</dimen><dimen name="space_23">23.0dip</dimen><dimen name="space_24">24.0dip</dimen><dimen name="timeline_small_card_icon_width">12.0dip</dimen><dimen name="timeline_small_card_icon_height">12.0dip</dimen><dimen name="space_3">3.0dip</dimen><dimen name="space_4">4.0dip</dimen><dimen name="global_padding">8.0dip</dimen><dimen name="space_5">5.0dip</dimen><dimen name="space_6">6.0dip</dimen><dimen name="menu_padding_left">34dp</dimen><dimen name="view_pager_margin">6dp</dimen><dimen name="space_1">1.0dip</dimen><dimen name="space_2">2.0dip</dimen><dimen name="space_10">10.0dip</dimen><dimen name="space_11">11.0dip</dimen><dimen name="g_loading_minSize">28dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="space_18">18.0dip</dimen><dimen name="space_19">19.0dip</dimen><dimen name="space_16">16.0dip</dimen><dimen name="space_17">17.0dip</dimen><dimen name="timeline_small_card_title_text_size">12.0sp</dimen><dimen name="space_14">14.0dip</dimen><dimen name="space_15">15.0dip</dimen><dimen name="space_12">12.0dip</dimen><dimen name="space_13">13.0dip</dimen></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\strings.xml" qualifiers=""><string name="loading">loading</string><string name="cancel">cancel</string><string name="error_view_loading">error view loading</string><string name="comfirm">comfirm</string><string name="retry">retry</string><string name="uploading_flight_point">uploading flight point</string></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\styles-dialog.xml" qualifiers=""><style name="SideDialog_" parent="@style/BaseDialog_">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowAnimationStyle">@style/MoveAnimation_</item>
+    </style><style name="BaseDialog_" parent="@android:style/Theme.Dialog">
+        
+        <item name="android:windowNoTitle">true</item>
+        
+        <item name="android:windowFrame">@null</item>
+        
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustPan|stateUnspecified</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowIsFloating">true</item>
+    </style><style name="MyDialog_" parent="@style/BaseDialog_">
+        <item name="android:windowAnimationStyle">@style/ScaledAnimation_</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">#00000000</item> 
+        <item name="android:windowBackground">@android:color/transparent</item>  
+    </style><style name="MoveAnimationFromRight_">
+        <item name="android:windowEnterAnimation">@anim/anim_right_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_right_out</item>
+    </style><style name="ScaledAnimation_">
+        <item name="android:windowEnterAnimation">@anim/scaled_in</item>
+        <item name="android:windowExitAnimation">@anim/scaled_out</item>
+    </style><style name="AlphaAnimation_">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_out</item>
+    </style><style name="MoveAnimation_">
+        <item name="android:windowEnterAnimation">@anim/anim_down_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_down_out</item>
+    </style><style name="PopupAlpha_" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/alpha_in</item>
+        <item name="android:windowExitAnimation">@anim/alpha_out</item>
+    </style><style name="BottomDialog_" parent="@style/BaseDialog_">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowAnimationStyle">@style/MoveAnimation_</item>
+    </style><style name="PopupBottom_" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/anim_down_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_down_out</item>
+    </style></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\styles-progressbar.xml" qualifiers=""><declare-styleable name="BaseProgressBarWithNum">
+        <attr format="color" name="progress_unreached_color"/>
+        <attr format="color" name="progress_reached_color"/>
+        <attr format="dimension" name="progress_reached_bar_height"/>
+        <attr format="dimension" name="progress_unreached_bar_height"/>
+        <attr format="dimension" name="progress_text_size"/>
+        <attr format="color" name="progress_text_color"/>
+        <attr format="dimension" name="progress_text_offset"/>
+        <attr format="enum" name="progress_text_visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr>
+    </declare-styleable><declare-styleable name="RoundProgressBarWidthNumber">
+        <attr format="dimension" name="radius"/>
+    </declare-styleable></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\styles-viewpager.xml" qualifiers=""><declare-styleable name="ViewPager">
+        <attr name="orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values\styles.xml" qualifiers=""><style name="dialog_common" parent="@style/Base.Theme.AppCompat.Dialog.FixedSize">
+        <item name="android:windowBackground">@drawable/bg_dialog</item>
+    </style><style name="dialog_text">
+        <item name="android:textSize">@dimen/text_large_secondary_size</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/global_dialog_padding</item>
+        <item name="android:lineSpacingMultiplier">1.3</item>
+    </style><style name="text_base" parent="@style/wrap_view">
+        <item name="android:textSize">@dimen/text_regular_primary_size</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style><style name="dialog_divider">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">@color/light_gray</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style><style name="section_item_divider_vertical">
+        <item name="android:background">@color/ui_dialog_divider</item>
+        <item name="android:layout_width">0.0px</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style><style name="Genius.Widget.Loading" parent="">
+        <item name="gBackgroundLineSize">@dimen/g_loading_lineSize</item>
+        <item name="gForegroundLineSize">@dimen/g_loading_lineSize</item>
+
+        <item name="gBackgroundColor">@color/g_default_loading_bg</item>
+        <item name="gForegroundColor">@array/g_default_loading_fg</item>
+
+        <item name="gLineStyle">circle</item>
+        <item name="gAutoRun">true</item>
+    </style><style name="TextAppearance.LargePopupMenu" parent="TextAppearance.AppCompat.Widget.PopupMenu.Large">
+        <item name="android:textColor">@color/main_black</item>
+    </style><style name="DrapDownListView" parent="@style/Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:dividerHeight">1px</item>
+        <item name="android:divider">@color/list_divider_color</item>
+    </style><style name="full_view">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="FrameworkRoot.Theme" parent="Theme.AppCompat.DayNight.NoActionBar"/><style name="loading">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@drawable/progressloading</item>
+        <item name="android:indeterminateDuration">1000</item>
+        <item name="android:indeterminateOnly">true</item>
+    </style><style name="section_item_divider">
+        <item name="android:background">@color/ui_dialog_divider</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+    </style><style name="ActionBarPopupThemeOverlay" parent="ThemeOverlay.AppCompat.Light"/><style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style><style name="dialog_title" parent="@style/full_view">
+        <item name="android:textSize">@dimen/text_large_primary_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:gravity">center_vertical</item>
+    </style><style name="wrap_view">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style><style name="list_cell_divider">
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:background">#cccccc</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1.0px</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style><style name="IMAToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <item name="android:minWidth">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:scaleType">fitXY</item>
+    </style><style name="Widget.IMA.PopupMenu" parent="Widget.AppCompat.Light.PopupMenu">
+        <item name="android:dropDownSelector">?popupItemBackground</item>
+    </style><style name="loading_progress" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style><declare-styleable name="BaseTheme">
+        <attr format="color" name="actionBarIconColor"/>
+        <attr format="dimension" name="actionBarInsetStart"/>
+        <attr format="dimension" name="spinnerBarInsetStart"/>
+        <attr format="reference" name="popupItemBackground"/>
+        <attr format="reference" name="photoItemForeground"/>
+        <attr format="reference" name="photoItemForegroundBorderless"/>
+    </declare-styleable><style name="Widget.IMA.ListView.DropDown" parent="Widget.AppCompat.Light.ListView.DropDown">
+        <item name="android:listSelector">?popupItemBackground</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style><style name="list_cell_text">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+    </style><style name="ActivityTransitions" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/open_enter_slide_in_left</item>
+        <item name="android:activityOpenExitAnimation">@anim/open_exit_fade_back</item>
+        <item name="android:activityCloseEnterAnimation">@anim/close_enter_fade_forward</item>
+        <item name="android:activityCloseExitAnimation">@anim/close_exit_slide_out_right</item>
+    </style><style name="dialog_subtitle" parent="@style/full_view">
+        <item name="android:textSize">@dimen/text_large_secondary_size</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style><style name="dialog_button">
+        <item name="android:textSize">@dimen/text_regular_primary_size</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:background">@drawable/touch_clear_bg</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:layout_width">0.0dip</item>
+        <item name="android:layout_height">46.0dip</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:layout_weight">1.0</item>
+    </style><style name="AppTheme.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="colorAccent">@color/app_colorAccent</item>
+    </style><style name="list_cell_text_dialog" parent="@style/list_cell_text">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">@color/ui_dialog_list_text</item>
+    </style><style name="Theme.IMA" parent="Theme.IMA.Base"/><style name="text_multiline" parent="@style/text_base">
+        <item name="android:maxLines">5</item>
+        <item name="android:singleLine">false</item>
+        <item name="android:lineSpacingMultiplier">1.15</item>
+    </style><style name="ActionBarThemeOverlay" parent="">
+        <item name="android:textColorPrimary">#fff</item>
+        <item name="colorControlNormal">?actionBarIconColor</item>
+        <item name="colorControlHighlight">#3fff</item>
+    </style><style name="Theme.IMA.Base" parent="@style/Theme">
+        <item name="actionBarIconColor">#fff</item>
+        <item name="popupItemBackground">?android:selectableItemBackground</item>
+        <item name="photoItemForeground">?android:selectableItemBackground</item>
+        <item name="photoItemForegroundBorderless">?android:selectableItemBackground</item>
+        
+        
+        <item name="dropDownListViewStyle">@style/DrapDownListView</item>
+        
+        <item name="colorPrimary">@color/app_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/app_colorPrimaryDark</item>
+        <item name="colorAccent">@color/app_colorAccent</item>
+        <item name="android:textColorPrimary">@color/app_colorPrimary</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@color/window_background</item>
+        <item name="android:popupMenuStyle">@style/Widget.IMA.PopupMenu</item>
+        <item name="android:listPopupWindowStyle">@style/Widget.IMA.PopupMenu</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/TextAppearance.LargePopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/Widget.IMA.ListView.DropDown</item>
+        <item name="android:windowAnimationStyle">@style/ActivityTransitions</item>
+        <item name="toolbarNavigationButtonStyle">@style/IMAToolbarNavigationButtonStyle</item>
+        <item name="actionBarSize">@dimen/actionbar_size</item>
+        <item name="android:seekBarStyle">@style/Widget.AppCompat.SeekBar</item>
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert</item>
+    </style><style name="Theme" parent="FrameworkRoot.Theme">
+        
+    </style><style name="dialog_pinterest_text" parent="@style/text_multiline">
+        <item name="android:textSize">@dimen/text_regular_primary_size</item>
+        <item name="android:textColor">@color/text_dark</item>
+        <item name="android:layout_width">fill_parent</item>
+    </style></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values-zh\lockview_attrs.xml" qualifiers="zh"><declare-styleable name="SlideToUnlockView">
+        <attr format="dimension" name="slideImageViewWidth"/>
+        <attr format="reference" name="slideImageViewResId"/>
+        <attr format="reference" name="slideImageViewResIdAfter"/>
+        <attr format="reference" name="viewBackgroundResId"/>
+        <attr format="string" name="textHint"/>
+        <attr format="integer" name="textSize"/>
+        <attr format="color" name="textColorResId"/>
+        <attr format="float" name="slideThreshold"/>
+    </declare-styleable></file><file path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\main\res\values-zh\strings.xml" qualifiers="zh"><string name="cancel">取消</string><string name="retry">重试</string><string name="error_view_loading">视图加载失败</string><string name="loading">加载中</string><string name="uploading_flight_point">上传航点</string><string name="comfirm">确定</string></file></source><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\build\generated\res\rs\release"/><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\build\generated\res\resValues\release"/></dataSet><dataSet config="release" generated-set="release$Generated"><source path="H:\MyGitHub\MoveTool_App\Android_MoveTool\src\release\res"/></dataSet><mergedItems><configuration qualifiers=""><declare-styleable name="RoundProgressBarWidthNumber"><attr format="dimension" name="radius"/></declare-styleable><declare-styleable name="BaseTheme"><attr format="color" name="actionBarIconColor"/><attr format="dimension" name="actionBarInsetStart"/><attr format="dimension" name="spinnerBarInsetStart"/><attr format="reference" name="popupItemBackground"/><attr format="reference" name="photoItemForeground"/><attr format="reference" name="photoItemForegroundBorderless"/></declare-styleable><declare-styleable name="Loading"><attr format="dimension" name="gBackgroundLineSize"/><attr format="dimension" name="gForegroundLineSize"/><attr name="gBackgroundColor"/><attr format="reference|color" name="gForegroundColor"/><attr name="gLineStyle">
+            <enum name="circle" value="1"/>
+            <enum name="line" value="2"/>
+        </attr><attr format="boolean" name="gAutoRun"/><attr format="float" name="gProgressFloat"/></declare-styleable><declare-styleable name="BaseProgressBarWithNum"><attr format="color" name="progress_unreached_color"/><attr format="color" name="progress_reached_color"/><attr format="dimension" name="progress_reached_bar_height"/><attr format="dimension" name="progress_unreached_bar_height"/><attr format="dimension" name="progress_text_size"/><attr format="color" name="progress_text_color"/><attr format="dimension" name="progress_text_offset"/><attr format="enum" name="progress_text_visibility">
+            <enum name="visible" value="0"/>
+            <enum name="invisible" value="1"/>
+        </attr></declare-styleable><declare-styleable name="AutoLayout_Layout"><attr name="layout_auto_basewidth">
+            <flag name="width" value="1"/>
+            <flag name="height" value="2"/>
+            <flag name="textSize" value="4"/>
+            <flag name="padding" value="8"/>
+            <flag name="margin" value="16"/>
+            <flag name="marginLeft" value="32"/>
+            <flag name="marginTop" value="64"/>
+            <flag name="marginRight" value="128"/>
+            <flag name="marginBottom" value="256"/>
+            <flag name="paddingLeft" value="512"/>
+            <flag name="paddingTop" value="1024"/>
+            <flag name="paddingRight" value="2048"/>
+            <flag name="paddingBottom" value="4096"/>
+        </attr><attr name="layout_auto_baseheight">
+            <flag name="width" value="1"/>
+            <flag name="height" value="2"/>
+            <flag name="textSize" value="4"/>
+            <flag name="padding" value="8"/>
+            <flag name="margin" value="16"/>
+            <flag name="marginLeft" value="32"/>
+            <flag name="marginTop" value="64"/>
+            <flag name="marginRight" value="128"/>
+            <flag name="marginBottom" value="256"/>
+            <flag name="paddingLeft" value="512"/>
+            <flag name="paddingTop" value="1024"/>
+            <flag name="paddingRight" value="2048"/>
+            <flag name="paddingBottom" value="4096"/>
+            <flag name="minWidth" value="8192"/>
+            <flag name="maxWidth" value="16384"/>
+            <flag name="minHeight" value="32768"/>
+            <flag name="maxHeight" value="65536"/>
+        </attr></declare-styleable><declare-styleable name="ImageView"><attr name="gTouchColor"/><attr name="gTouchEffect"/><attr name="gTouchCornerRadius"/><attr name="gTouchCornerRadiusTL"/><attr name="gTouchCornerRadiusTR"/><attr name="gTouchCornerRadiusBL"/><attr name="gTouchCornerRadiusBR"/><attr name="gTouchDurationRate"/></declare-styleable><declare-styleable name="MetroLayout"><attr format="dimension" name="metro_divider"/></declare-styleable><declare-styleable name="ViewPager"><attr name="orientation">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr></declare-styleable><declare-styleable name="MWheelView"><attr format="color" name="textSelectedColor"/><attr format="color" name="textNotSelectedColor"/><attr format="integer" name="offset"/><attr format="color" name="separatorColor"/><attr format="dimension" name="separatorWidth"/></declare-styleable></configuration></mergedItems></merger>

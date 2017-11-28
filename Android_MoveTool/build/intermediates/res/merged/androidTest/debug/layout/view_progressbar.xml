@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#cc000000"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_margin="10dp"
+    xmlns:agric="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:text="@string/uploading_flight_point"
+        android:textColor="@color/white"/>
+    <com.topxgun.appbase.component.dialog.BaseProgressBarWithNum
+        android:id="@+id/weight_pb_agric"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:progress="0"
+        agric:progress_text_color="@color/white"
+        agric:progress_unreached_color="@color/white40" />
+</LinearLayout>

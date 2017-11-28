@@ -1,0 +1,9 @@
+<resources>
+    <string name="cancel">cancel</string>
+    <string name="comfirm">comfirm</string>
+    <string name="retry">retry</string>
+
+    <string name="loading">loading</string>
+    <string name="error_view_loading">error view loading</string>
+    <string name="uploading_flight_point">uploading flight point</string>
+</resources>

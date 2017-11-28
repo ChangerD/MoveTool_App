@@ -1,0 +1,11 @@
+<resources>
+
+    <declare-styleable name="MWheelView">　
+        <attr name="textSelectedColor" format="color"/>
+        <attr name="textNotSelectedColor" format="color"/>
+        <attr name="offset" format="integer"/>
+        <attr name="separatorColor" format="color"/>
+        <attr name="separatorWidth" format="dimension"/>
+    </declare-styleable>　
+
+</resources>
