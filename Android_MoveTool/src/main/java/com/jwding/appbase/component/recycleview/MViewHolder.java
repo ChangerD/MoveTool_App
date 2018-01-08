@@ -8,21 +8,17 @@ import android.view.View;
  * date:2018/1/8.
  */
 
-public class MViewHolder extends ViewHolder{
+public class MViewHolder extends ViewHolder {
 
-    public int getViewType(){
-        return 0;
-    };
+    public static int viewType = 0;
 
-    public int getLayoutId(){
-        return 0;
-    }
+    public static int layoutId = 0;
 
     public MViewHolder(View itemView) {
         super(itemView);
     }
 
-    public void bindViewHolder(Item item){
+    public void bindViewHolder(Item item) {
 
     }
 }

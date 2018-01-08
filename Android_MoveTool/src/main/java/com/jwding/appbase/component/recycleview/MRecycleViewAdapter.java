@@ -6,7 +6,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.util.List;
 
 /**
@@ -16,10 +18,10 @@ import java.util.List;
 public class MRecycleViewAdapter extends RecyclerView.Adapter {
 
     private List<Item> items;
-    private List<MViewHolder> viewHolders;
+    private List<Class> viewHolders;
     private Context context;
 
-    public MRecycleViewAdapter(Context context, List<Item> items, List<MViewHolder> viewHolders) {
+    public MRecycleViewAdapter(Context context, List<Item> items, List<Class> viewHolders) {
         this.items = items;
         this.context = context;
         this.viewHolders=viewHolders;
@@ -28,25 +30,32 @@ public class MRecycleViewAdapter extends RecyclerView.Adapter {
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         if (viewHolders != null) {
-            for (MViewHolder mViewHolder : viewHolders) {
-                if (mViewHolder.getViewType() == viewType) {
-                    try {
-                        if(mViewHolder.getLayoutId()!=0&&context!=null){
-                            View view = LayoutInflater.from(context).inflate(mViewHolder.getLayoutId(),null,false);
-                            if(view!=null){
-                                MViewHolder newViewHolder = mViewHolder.getClass().getDeclaredConstructor(new Class[]{View.class}).newInstance(view);
-                                return newViewHolder;
+            for (Class mViewHolderCls : viewHolders) {
+                int mViewType=0;
+                int mLayoutId=0;
+                try {
+                    mViewType=mViewHolderCls.getField("viewType").getInt(null);
+                    mLayoutId=mViewHolderCls.getField("layoutId").getInt(null);
+                }  catch (Exception e) {
+                    e.printStackTrace();
+                    return null;
+                }
+                try {
+                    if (mViewType == viewType) {
+                        try {
+                            if(mLayoutId!=0&&context!=null){
+                                View view = LayoutInflater.from(context).inflate(mLayoutId,null,false);
+                                if(view!=null){
+                                    MViewHolder newViewHolder = (MViewHolder) mViewHolderCls.getDeclaredConstructor(new Class[]{View.class}).newInstance(view);
+                                    return newViewHolder;
+                                }
                             }
+                        }catch (Exception e) {
+                            e.printStackTrace();
                         }
-                    } catch (InstantiationException e) {
-                        e.printStackTrace();
-                    } catch (IllegalAccessException e) {
-                        e.printStackTrace();
-                    } catch (NoSuchMethodException e) {
-                        e.printStackTrace();
-                    } catch (InvocationTargetException e) {
-                        e.printStackTrace();
                     }
+                } catch (Exception e) {
+                    e.printStackTrace();
                 }
             }
         }
