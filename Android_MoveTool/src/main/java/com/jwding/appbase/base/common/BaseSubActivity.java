@@ -33,6 +33,11 @@ public abstract class BaseSubActivity extends BaseActivity {
             setContentView(getLayoutId());
         }
         ButterKnife.bind(this);
+        if(eventBusBackground()){
+            if (useEventBus() != null && useEventBus()) {
+                EventBus.getDefault().register(this);
+            }
+        }
         partialCommunication = new PartialCommunication();
         setSwitchAnim(R.anim.open_enter_slide_in_left, R.anim.open_exit_fade_back);
         initView();
@@ -44,26 +49,20 @@ public abstract class BaseSubActivity extends BaseActivity {
     @Override
     protected void onStart() {
         super.onStart();
-        if (useEventBus() != null && useEventBus()) {
-            EventBus.getDefault().register(this);
+        if(!eventBusBackground()){
+            if (useEventBus() != null && useEventBus()) {
+                EventBus.getDefault().register(this);
+            }
         }
     }
-
-/*    *//**
-     * 防止eventbus崩溃
-     * @param emptyEvent
-     *//*
-    @Subscribe
-    public void onEvent(Object emptyEvent){
-
-    }*/
-
 
     @Override
     protected void onStop() {
         super.onStop();
-        if (useEventBus() != null && useEventBus()) {
-            EventBus.getDefault().unregister(this);
+        if(!eventBusBackground()){
+            if (useEventBus() != null && useEventBus()) {
+                EventBus.getDefault().unregister(this);
+            }
         }
     }
 
@@ -79,6 +78,11 @@ public abstract class BaseSubActivity extends BaseActivity {
         if(partialCommunication!=null)
         partialCommunication.release();
         ButterKnife.unbind(this);
+        if(eventBusBackground()){
+            if (useEventBus() != null && useEventBus()) {
+                EventBus.getDefault().unregister(this);
+            }
+        }
     }
 
     /*
@@ -113,6 +117,10 @@ public abstract class BaseSubActivity extends BaseActivity {
      * 如果使用eventbus需要写onEvent方法，不然会报错crash的
      */
     public abstract Boolean useEventBus();
+
+    public boolean eventBusBackground(){
+        return false;
+    }
 
     /**
      * 获取默认SPF

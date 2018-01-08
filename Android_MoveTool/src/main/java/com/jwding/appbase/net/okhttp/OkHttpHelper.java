@@ -28,7 +28,8 @@ public class OkHttpHelper {
         if (client == null) {
             synchronized (OkHttpHelper.class) {
                 if (client == null)
-                    client = new OkHttpClient();
+                    client = new OkHttpClient.Builder()
+                            .build();
             }
         }
         return client;
