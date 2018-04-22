@@ -1,65 +1,67 @@
 package com.jwding.appbase.component.recycleview;
 
 import android.content.Context;
+import android.support.v4.util.SparseArrayCompat;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.List;
 
 /**
- * Created by 25340 on 2018/1/8.
+ * Created by jwding on 2018/1/8.
  */
 
 public class MRecycleViewAdapter extends RecyclerView.Adapter {
 
     private List<Item> items;
-    private List<Class> viewHolders;
+    private SparseArrayCompat<Class> viewTypeBindHolders = new SparseArrayCompat();
     private Context context;
 
-    public MRecycleViewAdapter(Context context, List<Item> items, List<Class> viewHolders) {
-        this.items = items;
+    public MRecycleViewAdapter(Context context) {
         this.context = context;
-        this.viewHolders=viewHolders;
     }
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        if (viewHolders != null) {
-            for (Class mViewHolderCls : viewHolders) {
-                int mViewType=0;
-                int mLayoutId=0;
-                try {
-                    mViewType=mViewHolderCls.getField("viewType").getInt(null);
-                    mLayoutId=mViewHolderCls.getField("layoutId").getInt(null);
-                }  catch (Exception e) {
-                    e.printStackTrace();
-                    return null;
-                }
-                try {
-                    if (mViewType == viewType) {
-                        try {
-                            if(mLayoutId!=0&&context!=null){
-                                View view = LayoutInflater.from(context).inflate(mLayoutId,null,false);
-                                if(view!=null){
-                                    MViewHolder newViewHolder = (MViewHolder) mViewHolderCls.getDeclaredConstructor(new Class[]{View.class}).newInstance(view);
-                                    return newViewHolder;
-                                }
-                            }
-                        }catch (Exception e) {
-                            e.printStackTrace();
-                        }
-                    }
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+        Class vhCls = viewTypeBindHolders.get(viewType);
+        if (vhCls == null) {
+            for (Item item : items) {
+                viewTypeBindHolders.append(item.getLayoutId(), item.getViewHolder());
             }
         }
-        return null;
+        vhCls = viewTypeBindHolders.get(viewType);
+        if (vhCls == null) {
+            return new MViewHolder(new View(context));
+        }
+        try {
+            if (viewType != 0 && context != null) {
+                View view = LayoutInflater.from(context).inflate(viewType, parent, false);
+                if (view != null) {
+                    MViewHolder newViewHolder = (MViewHolder) vhCls.getDeclaredConstructor(new Class[]{View.class}).newInstance(view);
+                    newViewHolder.setAdapter(this);
+                    return newViewHolder;
+                }
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+            return new MViewHolder(new View(context));
+        }
+        return new MViewHolder(new View(context));
+    }
+
+
+    private boolean containsViewType(int[] viewTypes, int viewType) {
+        if (viewTypes == null) {
+            return false;
+        }
+        for (int vt : viewTypes) {
+            if (vt == viewType) {
+                return true;
+            }
+        }
+        return false;
     }
 
     @Override
@@ -83,8 +85,72 @@ public class MRecycleViewAdapter extends RecyclerView.Adapter {
     @Override
     public int getItemViewType(int position) {
         if (items != null && position < items.size()) {
-            return items.get(position).getViewType();
+            return items.get(position).getLayoutId();
         }
         return 0;
     }
+
+    public List<Item> getItems() {
+        return items;
+    }
+
+    public void setItems(List items) {
+        this.items = items;
+    }
+
+    public abstract static class Item {
+
+        public abstract int getLayoutId();
+
+        public abstract Class getViewHolder();
+
+        //默认-1 开启
+        public int getDragFlag() {
+            return -1;
+        }
+
+        //默认0 关闭
+        public int getSwipeFlag() {
+            return 0;
+        }
+
+    }
+
+    public static class MViewHolder extends RecyclerView.ViewHolder {
+
+        protected View mItemView;
+
+        protected MRecycleViewAdapter adapter;
+
+        public Item item;
+
+        public MViewHolder(View itemView) {
+            super(itemView);
+            this.mItemView = itemView;
+        }
+
+        public void bindViewHolder(Item item) {
+            this.item = item;
+        }
+
+        public void onSwipe(float xd, float yd) {
+
+        }
+
+        public void onSwiped() {
+        }
+
+        public void onClick() {
+        }
+
+        public void onLongClick() {
+        }
+
+        public MViewHolder setAdapter(MRecycleViewAdapter adapter) {
+            this.adapter = adapter;
+            return this;
+        }
+
+    }
+
 }
